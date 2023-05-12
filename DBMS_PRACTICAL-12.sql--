@@ -1,4 +1,4 @@
-1.
+-- 1.
 
 DECLARE
       CURSOR C1 IS SELECT * FROM EMPLOYEE;
@@ -15,7 +15,7 @@ BEGIN
    CLOSE C1;
 END
 
-2.
+-- 2.
 
 
 DECLARE
