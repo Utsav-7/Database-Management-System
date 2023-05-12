@@ -1,5 +1,4 @@
-
----------------------------------------------DEPOSIT TABLE-----------------------------------
+-- -------------------------------------------DEPOSIT TABLE----------------------------------- 
 CREATE TABLE DEPOSIT 
 (
      ACTNO VARCHAR2(5),
@@ -21,7 +20,7 @@ INSERT INTO DEPOSIT VALUES('109','MINU','POWAI',7000.00,'10-AUG-95');
 SELECT * FROM DEPOSIT;
 
 
----------------------------------------------BRANCH TABLE-----------------------------------
+-- -------------------------------------------BRANCH TABLE-----------------------------------
 CREATE TABLE BRANCH 
 (
     BNAME VARCHAR2(18), 
@@ -41,7 +40,7 @@ INSERT INTO BRANCH VALUES('POWAI','BOMBAY');
 
 SELECT * FROM BRANCH;
 
----------------------------------------------CUSTOMERS TABLE-----------------------------------
+-- -------------------------------------------CUSTOMERS TABLE-----------------------------------
 CREATE TABLE CUSTOMERS 
 (
     CNAME VARCHAR2(19), 
@@ -60,7 +59,7 @@ INSERT INTO CUSTOMERS VALUES('NAREN','BOMBAY');
 
 SELECT * FROM CUSTOMERS;
 
----------------------------------------------BORROW TABLE-------------------------------------
+-- -------------------------------------------BORROW TABLE-------------------------------------
 CREATE TABLE BORROW 
 (
     LOANNO VARCHAR2(5), 
@@ -79,7 +78,7 @@ INSERT INTO BORROW VALUES('481','KRANTI','NEHRU PLACE',3000.00);
 SELECT * FROM BORROW;
 
 
----------------------------------------------QUERIES-------------------------------------
+-- ------------------------------------------QUERIES-------------------------------------
 1. DESC DEPOSIT;
    DESC BRANCH;
 2. DESC CUSTOMERS;
